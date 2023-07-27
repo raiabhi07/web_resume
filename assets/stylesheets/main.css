@@ -1,0 +1,69 @@
+:root{
+ --text-color:#fff;
+ --btn-text-color:#ed6161;
+ --btn-background-color:#4d4a4a;
+}
+.h-100{height:100%}
+
+#container {
+    height: 100vh;
+    background-image:url("../images/bg-image.jpeg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding:100px 50px;
+
+}
+.wrapper{
+    background-color: rgb(50, 43, 43);
+    margin: 0 auto;  /* this is used to align the box in the center */
+    
+    width:1260px;
+    height: calc(100vh - 150px );
+    border-radius:20px; /*this is used to add a curve to the box */
+    position: relative;
+    box-shadow:0px 0px 20px 2px rgb(105, 94, 186);
+}
+
+.wrapper> .row{
+    position:absolute;
+    width:100%;
+    height: 100%;
+}
+
+.intro{
+    text-align:center;
+    height:100%;
+    background-color: rgb(87, 72, 86);
+    color: var(--text-color);
+    /* padding: 20px 0px; */
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.intro a{
+    color: var(--text-color);
+}
+.intro ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    display:flex; 
+    justify-content: space-evenly;
+}
+
+#home{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home h1{
+    font-size: 5em;
+    color: var(--text-color);
+}
+#home p{
+    font-size: 2em;
+    color:#ffffff75;
+}
